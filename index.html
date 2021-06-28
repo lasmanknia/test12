@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: whitesmoke;
+        }
+        .box{
+            box-shadow: 4px 3px 2px black;
+        }
+        .box:hover{
+            padding: 15px;
+            transition: 1s;
+        }
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
     #whole{
@@ -24,6 +34,7 @@
         margin-left: 20px;
         border-radius: 20px;
         text-align: center;
+        box-sizing: border-box;
     }
     .bg{
         width: 100%;
@@ -62,8 +73,8 @@
         justify-content: center;
     }
     .box{
-        background-color: rgb(238, 190, 143);
-        height: 35vh;
+        background-color: rgb(255, 255, 255);
+        height: 33vh;
         width: 15vh;
         padding: 10px;
         margin-bottom: 15px;
@@ -85,19 +96,21 @@
         font-size: 14px;
     }
     .st{
-        background-color: wheat;
-        width: 100px;
         margin: 0 auto;
         margin-bottom: 13px;
         margin-top: 10px;
+        font-size: 10px;
     }
     .aa{
         text-decoration: none;
         background-color: rgb(74, 74, 226);
-        padding: 10px;
+        padding: 8px;
         font-size: 10px;
         color: white;
         border-radius: 10px;
+    }
+    .ag{
+        font-size: 14px;
     }
       
 }
@@ -113,7 +126,7 @@
         justify-content: center;
     }
     .box{
-        background-color: rgb(224, 209, 194);
+        background-color: rgb(252, 252, 252);
         height: 60vh;
         width: 35vh;
         padding: 10px;
@@ -158,6 +171,9 @@
         color: white;
         border-radius: 10px;
     }
+    .ag{
+        font-size: 13;
+    }
     
 } 
 
@@ -169,7 +185,7 @@
         <img class="bg" src="img/bg.jpg">
         <img src="img/1.jpg" class="pp"><hr>
         <p class="nm">Salman Anik</p>
-        <p>Age : 18</p>
+        <p class="ag">Age : 18</p>
         <p class="st">Student</p>
         <a class="aa" href="">View Profile</a> 
     </div>
@@ -177,7 +193,7 @@
         <img class="bg" src="img/bg.jpg">
         <img src="img/1.jpg" class="pp"><hr>
         <p class="nm">Salman Anik</p>
-        <p>Age : 18</p>
+        <p class="ag">Age : 18</p>
         <p class="st">Student</p>
         <a class="aa" href="">View Profile</a> 
     </div>
@@ -185,23 +201,7 @@
         <img class="bg" src="img/bg.jpg">
         <img src="img/1.jpg" class="pp"><hr>
         <p class="nm">Salman Anik</p>
-        <p>Age : 18</p>
-        <p class="st">Student</p>
-        <a class="aa" href="">View Profile</a> 
-    </div>
-    <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/1.jpg" class="pp"><hr>
-        <p class="nm">Salman Anik</p>
-        <p>Age : 18</p>
-        <p class="st">Student</p>
-        <a class="aa" href="">View Profile</a> 
-    </div>
-    <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/1.jpg" class="pp"><hr>
-        <p class="nm">Salman Anik</p>
-        <p>Age : 18</p>
+        <p class="ag">Age : 18</p>
         <p class="st">Student</p>
         <a class="aa" href="">View Profile</a> 
     </div>
